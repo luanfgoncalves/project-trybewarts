@@ -23,20 +23,30 @@
     </header>
     <main>
         <form id="evaluation-form">
+            <h1>Formulário de Avaliação</h1>
             <div class="inline">
-            <input id="input-name" type="text" placeholder="Nome">
-            <input id="input-lastname" type="text" placeholder="Sobrenome">
+                <input id="input-name" type="text" placeholder="Nome">
+                <input id="input-lastname" type="text" placeholder="Sobrenome">
             </div>
             <div class="inline">
-            <input id="input-email" type="email" placeholder="Email">
-            <label>Casa:</label>
-            <select id="house">
-                <option id="gitnoria-house" value="Gitnória">Gitnória</option>
-                <option id="reactpuff-house" value="Reactpuff">Reactpuff</option>
-                <option id="corvinode-house" value="Corvinode">Corvinode</option>
-                <option id="pytherina-house" value="Pytherina">Pytherina</option>
-            </select>
-        </div>
+                <input id="input-email" type="email" placeholder="Email">
+                <label>Casa:</label>
+                <select id="house">
+                    <option id="gitnoria-house" value="Gitnória">Gitnória</option>
+                    <option id="reactpuff-house" value="Reactpuff">Reactpuff</option>
+                    <option id="corvinode-house" value="Corvinode">Corvinode</option>
+                    <option id="pytherina-house" value="Pytherina">Pytherina</option>
+                </select>
+            </div>
+            <label id="label-family">Qual é sua familia?</label>
+            <div class="outline">
+                <input type="radio" name="family" value="Frontend">
+                <label for="Frontend">Família Frontend</label>
+                <input type="radio" name="family" value="Backend">
+                <label for="Backend">Família Backend</label>
+                <input type="radio" name="family" value="Fullstack">
+                <label for="Fullstack">Família Fullstack</label>
+            </div>
         </form>
         <figure>
             <img id="trybewarts-forms-logo" src="images/trybewarts-colored.svg">
