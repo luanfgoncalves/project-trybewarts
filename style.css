@@ -34,3 +34,13 @@ main{
     height: 500px;
     width: 500px;
 }
+
+#input-name{
+    padding: 10px;
+}
+#input-lastname{
+    padding: 10px;
+}
+#input-email{
+    padding: 10px;
+}
