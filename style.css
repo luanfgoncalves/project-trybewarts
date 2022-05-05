@@ -5,6 +5,11 @@
     align-items: center;
 }
 
+main{
+    display: flex;
+}
+
+
 .trybewarts-header-logo{
     width:30px;
     height: 30px;
@@ -14,4 +19,12 @@
     display: flex;
 }
 
-#trybewarts-header-title
+#evaluation-form{
+    display: flex;
+    flex-direction: column;
+    width: 675px;
+}
+
+#trybewarts-header-title{
+    color: white;
+}
