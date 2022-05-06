@@ -2,10 +2,11 @@
 <html lang="pt-br">
 
 <head>
-    <meta charset="UFT-8">
+    <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="description" content="Projeto TrybeWarts- Trybe">
     <meta name="keywords" content="project, html,css js, dom, trybe">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="author" content="Luan Filipe Gonçalves, Victor Lima Garcia">
     <title>TrybeWarts - Luan Filipe e Victor Lima</title>
     <link href="style.css" rel="stylesheet">
@@ -18,7 +19,7 @@
         <form class="trybewarts-login" method="get">
             <input id="eMail1" type="email" name="email" placeholder="Email">
             <input id="pass1" type="password" name="password" placeholder="Senha">
-            <button type="submit" onclick="pegarValorDeInput()">Entrar</button>
+            <button id="login-btn" type="submit">Entrar</button>
         </form>
     </header>
     <main>
@@ -84,7 +85,7 @@
             <button id="submit-btn" disabled type="submit">Enviar</button>
         </form>
         <figure>
-            <img id="trybewarts-forms-logo" src="images/trybewarts-colored.svg">
+            <img id="trybewarts-forms-logo" src="images/trybewarts-colored.svg" alt="Brasão da Trybewarts">
         </figure>
     </main>
     <footer>
