@@ -2,19 +2,15 @@
 
 const loginBtn = document.getElementById('login-btn');
 
-loginBtn.addEventListener('click', (event) => {
-  const valorDoLogin = document.getElementById("eMail1").value;
-  const valorDaSenha = document.getElementById("pass1").value;
-  console.log('clique reconhecido')
-  if (valorDoLogin === "tryber@teste.com" && valorDaSenha === "123456") {
-    alert("Olá, Tryber!");
-    console.log('Olá Tryber!');
-    } else {
-      alert("Email ou senha inválidos");
-      console.log('Email ou senha inválidos');
-    }
-})
-
+loginBtn.addEventListener('click', () => {
+  const valorDoLogin = document.getElementById('eMail1').value;
+  const valorDaSenha = document.getElementById('pass1').value;
+  if (valorDoLogin === 'tryber@teste.com' && valorDaSenha === '123456') {
+    alert('Olá, Tryber!');
+  } else {
+    alert('Email ou senha inválidos.');
+  }
+});
 
 // --------------Requisito 18---------------
 
