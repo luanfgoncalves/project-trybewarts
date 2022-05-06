@@ -2,7 +2,6 @@
 
 * {
   font-family: Roboto, sans-serif;
-  margin: 0px;
 }
 
 .header {
@@ -60,25 +59,25 @@ main {
 #input-name {
   height: 25px;
   width: 250px;
-  margin: 8px 0 4px 0
+  margin: 8px 0 4px;
 }
 
 #input-lastname {
   height: 25px;
   width: 250px;
-  margin: 8px 0 4px 0
+  margin: 8px 0 4px;
 }
 
 #input-email {
   height: 25px;
   width: 250px;
-  margin: 8px 0 4px 0
+  margin: 8px 0 4px;
 }
 
 #house {
   height: 30px;
   width: 213px;
-  margin: 8px 0 4px 0;
+  margin: 8px 0 4px;
 }
 
 #gitnoria-house {
@@ -101,14 +100,14 @@ main {
   display: flex;
   flex-direction: row;
   border: 1px solid grey;
-  margin: 4px 0 2px 0;
+  margin: 4px 0 2px;
 }
 
 .outline {
   display: flex;
   flex-direction: column;
   border: 1px solid grey;
-  margin: 4px 0 2px 0;
+  margin: 4px 0 2px;
 }
 
 .textarea {
@@ -133,7 +132,7 @@ textarea {
   width: 75px;
   color: white;
   background-color: rgb(98, 0, 190);
-  margin: 8px 0 2px 0;
+  margin: 8px 0 2px;
 }
 
 footer {
