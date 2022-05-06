@@ -23,3 +23,17 @@ function check() {
   }
 }
 check();
+
+// --------------Requisito 20---------------
+
+// document.getElementById('text').addEventListener('keypress', calcCharacter())
+
+function calcCharacter() {
+let texto = document.getElementById('text').maxLength;
+let texto2 = document.getElementById('text').value.length;
+let cont = document.getElementById('counter').innerText
+let number = parseInt(cont)
+
+  let newNumber = (number - texto2);
+  
+}
