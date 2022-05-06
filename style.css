@@ -1,8 +1,21 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap');
+
+* {
+  font-family: Roboto, sans-serif;
+  margin: 0px;
+}
+
 .header {
   background-color: rgb(50, 167, 145);
   display: flex;
   justify-content: space-between;
   align-items: center;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  background-color: aliceblue;
 }
 
 main {
@@ -11,19 +24,27 @@ main {
 }
 
 .trybewarts-header-logo {
-  width: 30px;
-  height: 30px;
+  width: 40px;
+  height: 40px;
+  padding-left: 15px;
+  padding-bottom: 3px;
+  padding-top: 2px;
 }
 
 .trybewarts-login {
   display: flex;
+  padding-right: 15px;
 }
 
 #evaluation-form {
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  justify-content: flex-start;
+  align-items: center;
   width: 675px;
+  margin-left: 2%;
+  margin-top: 10px;
+  background-color: rgb(248, 252, 255);
   border: 1px solid black;
 }
 
@@ -37,19 +58,27 @@ main {
 }
 
 #input-name {
-  padding: 10px;
+  height: 25px;
+  width: 250px;
+  margin: 8px 0 4px 0
 }
 
 #input-lastname {
-  padding: 10px;
+  height: 25px;
+  width: 250px;
+  margin: 8px 0 4px 0
 }
 
 #input-email {
-  padding: 10px;
+  height: 25px;
+  width: 250px;
+  margin: 8px 0 4px 0
 }
 
 #house {
-  padding: 0%;
+  height: 30px;
+  width: 213px;
+  margin: 8px 0 4px 0;
 }
 
 #gitnoria-house {
@@ -71,9 +100,46 @@ main {
 .iline {
   display: flex;
   flex-direction: row;
+  border: 1px solid grey;
+  margin: 4px 0 2px 0;
 }
 
 .outline {
   display: flex;
   flex-direction: column;
+  border: 1px solid grey;
+  margin: 4px 0 2px 0;
+}
+
+.textarea {
+  padding: 0%;
+}
+
+textarea {
+  height: 90px;
+  width: 500px;
+}
+
+#label-infos {
+  padding: 0%;
+}
+
+#agreement {
+  padding: 0%;
+}
+
+#submit-btn {
+  height: 25px;
+  width: 75px;
+  color: white;
+  background-color: rgb(98, 0, 190);
+  margin: 8px 0 2px 0;
+}
+
+footer {
+  display: flex;
+  width: 100%;
+  background-color: rgb(158, 158, 158);
+  position: absolute;
+  bottom: 0;
 }
