@@ -1,6 +1,6 @@
 // --------------Requisito 18---------------
 
-function check(){
+function check() {
   const agree = document.querySelector('#agreement').checked;
   const subimit = document.getElementById('submit-btn');
 
@@ -8,4 +8,4 @@ function check(){
     subimit.removeAttribute('disabled');
   }
 }
-check()
+check();
