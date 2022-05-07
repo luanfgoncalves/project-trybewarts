@@ -28,12 +28,21 @@ check();
 
 // document.getElementById('text').addEventListener('keypress', calcCharacter())
 
-function calcCharacter() {
-let texto = document.getElementById('text').maxLength;
-let texto2 = document.getElementById('text').value.length;
-let cont = document.getElementById('counter').innerText
-let number = parseInt(cont)
+// function calcCharacter() {
+// let texto = document.getElementById('text').maxLength;
+// let texto2 = document.getElementById('text').value.length;
+// let cont = document.getElementById('counter').innerText
+// let number = parseInt(cont)
 
-  let newNumber = (number - texto2);
-  
-}
+//   let newNumber = (number - texto2);
+//   console.log(number - texto2);
+// }
+const textarea = document.getElementById('text');
+
+textarea.addEventListener('input', () => {
+  const maxText = document.getElementById('text').maxLength;
+  const texto = document.getElementById('text').value.length;
+  const counter = document.getElementById('counter');
+  const charNumber = maxText - texto;
+  counter.textContent = charNumber;
+});
