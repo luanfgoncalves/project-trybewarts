@@ -26,7 +26,7 @@ check();
 
 // --------------Requisito 20---------------
 
-const textarea = document.getElementById('text');
+const textarea = document.getElementById('textarea');
 
 textarea.addEventListener('input', () => {
   const maxText = document.getElementById('textarea').maxLength;
