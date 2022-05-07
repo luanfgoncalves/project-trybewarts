@@ -29,8 +29,8 @@ check();
 const textarea = document.getElementById('text');
 
 textarea.addEventListener('input', () => {
-  const maxText = document.getElementById('text').maxLength;
-  const texto = document.getElementById('text').value.length;
+  const maxText = document.getElementById('textarea').maxLength;
+  const texto = document.getElementById('textarea').value.length;
   const counter = document.getElementById('counter');
   const charNumber = maxText - texto;
   counter.textContent = charNumber;
