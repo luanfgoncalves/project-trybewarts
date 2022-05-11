@@ -2,6 +2,7 @@
 
 * {
   font-family: Roboto, sans-serif;
+  margin: 0%;
 }
 
 .header {
@@ -14,12 +15,13 @@
 body {
   display: flex;
   flex-direction: column;
-  background-color: aliceblue;
+  justify-content: space-between;
+  background-color: rgb(224, 234, 243);
 }
 
 main {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-evenly;
 }
 
 .trybewarts-header-logo {
@@ -38,13 +40,15 @@ main {
 #evaluation-form {
   display: flex;
   flex-direction: column;
-  justify-content: flex-start;
+  justify-content: center;
   align-items: center;
   width: 675px;
+  height: 675px;
   margin-left: 2%;
   margin-top: 10px;
   background-color: rgb(248, 252, 255);
-  border: 1px solid black;
+  border: 1px solid gray;
+  border-radius: 3%;
 }
 
 #trybewarts-header-title {
@@ -74,71 +78,66 @@ main {
   margin: 8px 0 4px;
 }
 
+input {
+  background-color: white;
+  border: 1px solid grey;
+}
+
 #house {
   height: 30px;
   width: 213px;
   margin: 8px 0 4px;
 }
 
-#gitnoria-house {
-  padding: 0%;
-}
-
-#reactpuff-house {
-  padding: 0%;
-}
-
-#corvinode-house {
-  padding: 0%;
-}
-
-#pytherina-house {
-  padding: 0%;
-}
-
-.iline {
+.inline {
   display: flex;
   flex-direction: row;
-  border: 1px solid grey;
-  margin: 4px 0 2px;
+  justify-content: space-evenly;
+  align-items: center;
+  width: 80%;
+  margin: 8px 0 2px;
 }
 
 .outline {
   display: flex;
   flex-direction: column;
-  border: 1px solid grey;
-  margin: 4px 0 2px;
+  align-items: space-between;
+  margin: 8px 0 2px;
+  padding: 2px 3px 0;
+  padding-left: 3px;
+  width: 45%;
+  height: 100%;
+  border: solid 1px gray;
+  background-color: white;
 }
 
-.textarea {
-  padding: 0%;
+.multline {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  padding-top: 15px;
 }
 
 textarea {
-  height: 90px;
-  width: 500px;
-}
-
-#label-infos {
-  padding: 0%;
-}
-
-#agreement {
-  padding: 0%;
+  height: 170px;
+  width: 550px;
+  resize: none;
+  background-color: white;
 }
 
 #submit-btn {
   height: 25px;
   width: 75px;
   color: white;
-  background-color: rgb(98, 0, 190);
+  background-color: rgb(43, 167, 144);
   margin: 8px 0 2px;
 }
 
 footer {
   display: flex;
   width: 100%;
+  padding-left: 20px;
   background-color: rgb(158, 158, 158);
-  position: absolute;
+  position: fixed;
   bottom: 0;
 }
